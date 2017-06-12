@@ -40,5 +40,13 @@
     .nodes(nodes)
     .size(80)
     .type("sankey")
+    .ui([
+      {
+        "method": function(){
+          visualization.csv(true) // will DL all data not just what is shown
+        },
+        "value": ["Download All Data"]
+      }
+    ])
     .draw();
 </script>
