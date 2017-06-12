@@ -8,12 +8,16 @@
 
 <script>
   var nodes = [
-    {"id": "alpha"},
-    {"id": "beta"},
-    {"id": "gamma"}
+    {"id": "A&E"},
+    {"id": "Home"},
+    {"id": "admit"},
+    {"id": "dispose"}
   ];
   var edges = [
-    {"strength": 2, "source": 0, "target": 2},
+    {"strength": 1, "source": 0, "target": 2},
+    {"strength": 2, "source": 1, "target": 2},
+    {"strength": 3, "source": 0, "target": 3},
+    {"strength": 4, "source": 1, "target": 3},  
     {"strength": 1, "source": 1, "target": 2},
     {"strength": 1, "source": 2, "target": 0},
     {"strength": 3, "source": 2, "target": 1}
@@ -26,7 +30,7 @@
     })
     .focus({
       "tooltip": true,
-      "value": "gamma"
+      "value": "admit"
     })
     .id("id")
     .nodes(nodes)
