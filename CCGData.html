@@ -54,12 +54,14 @@
   
   
         
-<h2>CCG / Practice Data Tool</h2>
+<h1>CCG / Practice Data Tool</h1>
 <br>
 <br>
 	<p>
 	
-		As part of the Innovative Uses of Data programme, NHS Digital have developed this tool which highlights hospital activity broken down by CCG and registereed Practice
+		As part of the Innovative Uses of Data programme, NHS Digital have developed this tool which highlights hospital activity broken down by CCG and registereed Practice.<br> This report provides aggregated anonymised data to aid commissioners in their understanding of demand for NHS services.
+Data have been extracted from SUS tNR by NHS England to match the definitions used for similar commissioning management information.
+This management information report is experimental and feedback is welcomed.
 		
 	</p>	
 		
@@ -70,6 +72,30 @@
 	</div>
 	
 	
+	<h2>How to use this tool</h>
+	<p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </p>
+	
+	<h2>Notes and Definitions</h2>
+	<p>1) All data are sourced by NHS England from SUS tNR (temporary National Repository). This is to ensure consistency with other management information derived from the same source, and in particular to utilise the NHS England commissioning algorithm (used exclude activity not commissioned by CCGs) which is not available from HES.
+
+2) Unless stated, all rates per 100k population are weighted according to GP Practice Populations sourced from NHS England Allocations Guide (https://www.england.nhs.uk/2016/04/allocations-tech-guide-16-17)
+Weighted populations are derived from the General and Acute population including a 10% unmet need adjustment. These are then uplifted using ONS population growth estimates for future years. 
+
+3) Practices with a weighted population of less than 100 patients have been excluded to avoid skewing the rate
+
+4) Activity is aggregated by registered GP Practice, then Clinical Commissioning Group, Direct Commissioning Office (DCO) and Commissioning Region. This GP Practice is defined as the practice of the patient's registered GP. It allows the GP to be notified about treatment given to the patient. The registered GP may not be the same as the referring GP.
+
+Suppression
+In accordance with the Confidentiality Guidance published by the ONS and the HES Analysis Guide, these data have been suppressed where the total number of records meeting the criteria per practice per month is 5 or less. Suppressed values are also not included in CCG, region or national totals.
+	</p>
+	
+	<p>
+		Rates per head
+Calculated as the number of admissions in a given period expressed as a rate per 100,000 weighted population
+
+Rate of Change
+Calculated as the difference between the rolling 12 month total for the latest 12 months and the preceding 12 months, expressed as a percentage. Practices with fewer than 100 attendances in the previous 12 months are excluded to avoid large skews.
+	</p>
 	
 	
 <p>Done at the ODI</p>
